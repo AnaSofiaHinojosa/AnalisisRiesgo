@@ -1,0 +1,95 @@
+---
+title: "Análisis del riesgo"
+author: "Sofia Hinojosa"
+date: "2025-08-19"
+output: html_document
+---
+
+## Introducción
+
+De cálculo estocástico:
+
+$\epsilon \rightarrow variable\, aleatoria \sim N(0,1)$
+
+### ¿Qué es el riesgo?
+
+Con conotación negativa, es la probabilidad de que ocurra un evento adverso. Pero también es una oportunidad de obtener un beneficio. El **riesgo** es la **incertidumbre** que rodea a un evento futuro.
+
+**Finanzas** $\rightarrow$ pérdidas potenciales administrando un portafolio.
+
+**Medida de riesgo** $\rightarrow$ probabilidad de pérdidas.
+
++---------------+-----------------+-----------------+---------------+
+| Proyecto      | Capital inicial | Retorno interno | Probabilidad  |
++===============+=================+=================+===============+
+| A             | 100             | 16%             | 100%          |
++---------------+-----------------+-----------------+---------------+
+| B             | 100             | 11%             | 50%           |
+|               |                 |                 |               |
+|               |                 | 21%             | 50%           |
++---------------+-----------------+-----------------+---------------+
+| C             | 100             | -9%             | 50%           |
+|               |                 |                 |               |
+|               |                 | 41%             | 50%           |
++---------------+-----------------+-----------------+---------------+
+
+------------------------------------------------------------------------
+
+## Definiciones estadísticas
+
+Disperción
+
+:   A mayor varianza, mayor riesgo.
+
+Distribución
+
+:   Cuando la distribución está sesgada a la derecha, se pueden esperar rendimientos excepcionalmente altos; cuando está sesgada a la izquierda, rendimientos excepcionalmente bajos.
+
+Sesgo
+
+:   Cuando la distribución se carga a la derecha o a la izquierda.
+
+Curtosis
+
+:   medida estadística que describe la **forma de la distribución de una variable**, en particular qué tan "afilados" o "achatados" son los picos de la distribución en comparación con una distribución normal.
+
+:   **Leptocúrtica** $\rightarrow$ alto grado de concentración alrededor de los valores centrales de la variable.
+
+    **Mesocúrtica** $\rightarrow$ grado medio de concentración.
+
+    **Platicúrtica** $\rightarrow$ bajo grado de concentración.
+
+------------------------------------------------------------------------
+
+## Clasificación de riesgos
+
+**Riesgo:** Sistemático y no sistemático
+
+**Riesgo sistemático:** Económico, político y financiero. Está asociado con cambios en la economía debido a factores internos y externos. Solo puede reducirse en ciertas circunstancias adquiriendo distintos activos, pero en general no se elimina porque todos se encuentran bajo las mismas condiciones. NO DIVERSIFICABLE.
+
+-   **Riesgo Económico:** se refiere a la incertidumbre en el rendimiento de la inversión debido a cambios en la situación económica del sector de la empresa, como la aparición de nuevos competidores, innovaciones en el mercado o cambios en los gustos del consumidor.
+
+-   **Riesgo Político:** es la probabilidad de que un determinado acontecimiento político genere pérdidas para una empresa, como acciones del gobierno que conduzcan a un golpe de Estado o una revolución, o cambios en el régimen laboral que modifiquen los salarios.
+
+-   **Riesgo Financiero:** se refiere a las incertidumbres en las operaciones financieras derivadas de la volatilidad de los mercados financieros y de crédito, incluyendo el riesgo de mercado, el riesgo crediticio, el riesgo de liquidez, el riesgo de tasas de interés y el riesgo cambiario.
+
+    -   **Riesgo de mercado:** riesgo de pérdida causado por cambios en el precio de un activo que afectan negativamente una posición. El cambio en el precio de los activos puede ser provocado por varios factores, como el precio de mercado, la volatilidad y la correlación.
+
+    -   **Riesgo cambiario:** está asociado con la fluctuación de una moneda respecto a otra. Es la probabilidad de pérdida generada por la apreciación o depreciación de las monedas.
+
+    -   **Riesgo de tasa de interés:** es el riesgo de que el precio de un valor de interés fijo, como un bono, una obligación o un préstamo, se vea afectado por la variación de las tasas de interés en el mercado.
+
+    -   **Riesgo crediticio:** está asociado con la posibilidad de que un deudor no cumpla con sus obligaciones. También implica que el deudor pague solo de manera parcial y después de la fecha acordada.
+
+    -   **Riesgo de liquidez:** pérdida potencial causada por eventos que afectan la capacidad de disponer de recursos y cumplir con obligaciones pasivas. La liquidez es la capacidad de una persona o entidad para cumplir con sus deudas a corto plazo mediante activos que se puedan convertir rápidamente en efectivo.
+
+**Riesgo no sistemático:** Tecnológico y estratégico. Se debe a factores internos ocasionados por la empresa; es único de la compañía e independiente de factores económicos, políticos o sociales. Este riesgo está asociado con cambios tecnológicos, competencia, huelgas, etc. DIVERSIFICABLE O ESPECÍFICO.
+
+-   **Tecnológico:** Se refiere a la pérdida causada por interrupciones, fallas o daños derivados de los sistemas de información y las plataformas tecnológicas que una organización utiliza para prestar sus servicios habituales.
+
+-   **Estratégico:**
+
+    -   El **riesgo operacional** puede definirse como el riesgo de pérdida debido a fallas en los sistemas administrativos, procedimientos internos y errores humanos intencionales o no intencionales, incluyendo fraudes, robos a la empresa y errores de captura.
+    -   El **riesgo de reputación** es la pérdida causada por no concretar oportunidades de negocio atribuibles a la falta de prestigio de una institución.
+    -   **Riesgo de negocio** se origina a partir de cambios en las variables de un plan de negocios, lo que puede afectar su viabilidad, e incluye riesgos cuantificables como el ciclo económico y riesgos no cuantificables como cambios en el comportamiento de los competidores del mercado o cambios tecnológicos.
+    -   El **riesgo legal** es la pérdida sufrida en caso de incumplimiento por parte de un tercero, cuando no se puede exigir legalmente el cumplimiento de los compromisos de pago. Esto puede deberse a la falta de documentos adecuados, descuidos por la inclusión de algún precepto perjudicial, cambios en la legislación después de la redacción de los documentos, interpretaciones incorrectas de la ley o la necesidad de pagar compensaciones financieras a terceros.
