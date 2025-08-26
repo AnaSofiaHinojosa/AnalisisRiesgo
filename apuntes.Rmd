@@ -19,19 +19,19 @@ Con conotación negativa, es la probabilidad de que ocurra un evento adverso. Pe
 
 **Medida de riesgo** $\rightarrow$ probabilidad de pérdidas.
 
-+---------------+-----------------+-----------------+---------------+
-| Proyecto      | Capital inicial | Retorno interno | Probabilidad  |
-+===============+=================+=================+===============+
-| A             | 100             | 16%             | 100%          |
-+---------------+-----------------+-----------------+---------------+
-| B             | 100             | 11%             | 50%           |
-|               |                 |                 |               |
-|               |                 | 21%             | 50%           |
-+---------------+-----------------+-----------------+---------------+
-| C             | 100             | -9%             | 50%           |
-|               |                 |                 |               |
-|               |                 | 41%             | 50%           |
-+---------------+-----------------+-----------------+---------------+
++--------------+-----------------+-----------------+--------------+
+| Proyecto     | Capital inicial | Retorno interno | Probabilidad |
++==============+=================+=================+==============+
+| A            | 100             | 16%             | 100%         |
++--------------+-----------------+-----------------+--------------+
+| B            | 100             | 11%             | 50%          |
+|              |                 |                 |              |
+|              |                 | 21%             | 50%          |
++--------------+-----------------+-----------------+--------------+
+| C            | 100             | -9%             | 50%          |
+|              |                 |                 |              |
+|              |                 | 41%             | 50%          |
++--------------+-----------------+-----------------+--------------+
 
 ------------------------------------------------------------------------
 
@@ -93,3 +93,165 @@ Curtosis
     -   El **riesgo de reputación** es la pérdida causada por no concretar oportunidades de negocio atribuibles a la falta de prestigio de una institución.
     -   **Riesgo de negocio** se origina a partir de cambios en las variables de un plan de negocios, lo que puede afectar su viabilidad, e incluye riesgos cuantificables como el ciclo económico y riesgos no cuantificables como cambios en el comportamiento de los competidores del mercado o cambios tecnológicos.
     -   El **riesgo legal** es la pérdida sufrida en caso de incumplimiento por parte de un tercero, cuando no se puede exigir legalmente el cumplimiento de los compromisos de pago. Esto puede deberse a la falta de documentos adecuados, descuidos por la inclusión de algún precepto perjudicial, cambios en la legislación después de la redacción de los documentos, interpretaciones incorrectas de la ley o la necesidad de pagar compensaciones financieras a terceros.
+
+## Regulaciones
+
+### Sistema financiero mexicano
+
+Los principales actores del sistema financiero mexicano son:
+
+-   Banco de México
+
+-   Secretaría de Hacienda y Crédito Público
+
+-   Comisión Nacional Bancaria y de Valores
+
+-   Comisión Nacional de Seguros y Fianzas
+
+-   Comisión Nacional del Sistema de Ahorro para el Retiro
+
+-   Instituciones de Banca Privada
+
+### IPAB sustituyó al Fobaproa
+
+Se creó en 1990 como un fideicomiso para prevenir contingencias, como las de 1994 y 1995. En 1998, el saldo se convirtió en deuda pública.
+
+-   Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros
+
+-   Instituciones de Seguros Especializados en Salud
+
+### Fobaproa → IPAB
+
+El Fondo Bancario de Protección al Ahorro (Fobaproa), creado en 1990, surgió como una respuesta para enfrentar posibles crisis financieras, en el supuesto que estas representaran un riesgo a la liquidez de los bancos. En caso de suceder, el fondo se utilizaría para comprar las deudas de los bancos y otorgarles capital. (Bancos y gobierno, bonos emitidos para pagar la deuda) Se implementó en 1995 para hacer frente a la crisis y evitar quiebra financiera generalizada; se otorgaron subsidios, se compró deuda de los bancos y se protegió el dinero de los ahorradores. El Instituto para la Protección del Ahorro Bancario (IPAB) procura que las personas ahorradoras conserven el valor de su patrimonio en caso de que un banco se ubique en una situación de quiebra (400,000 UDIS).
+
+### Bancos sistémicos
+
+**La Comisión Nacional Bancaria y de Valores (CNBV)** es una agencia que forma parte del Gobierno Federal y cuyas funciones son supervisar y regular las entidades que forman parte del sistema financiero mexicano para lograr su estabilidad, buen funcionamiento y desarrollo sano. Los bancos centrales y las instituciones de banca privada son esenciales en el sistema financiero. Dentro del sistema financiero hay muchos bancos, algunos más grandes que otros. Entre todos ellos, destacan los llamados **bancos sistémicos**.
+
+### Caso del banco Herstatt en Alemania
+
+**Antecedentes**
+
+El banco alemán Bankhaus Herstatt fue fundado en 1955. En 1974 ocupaba el puesto 35 en importancia en Alemania, con un capital superior a los 2 mil millones de marcos alemanes (DM). No era un banco global enorme, pero era muy agresivo, con posiciones extremadamente expuestas y mucho apalancamiento, hasta 23 veces su capital. Entre 1973 y 1974, el dólar experimentó alta volatilidad. En 1974, apostó a que el dólar se recuperaría, lo cual no ocurrió (pérdida del respaldo en oro, déficits de EE.UU., crisis petrolera, alta inflación, entre otros). En junio de 1974, tuvo pérdidas por 470 millones de marcos alemanes. El capital en esa misma fecha era de 44 millones de marcos alemanes. Muchos bancos compraron dólares que no recibieron. El banco cerró a las 16:30 (hora centroeuropea, 10:30 NY). El cierre ocurrió justo después de que el banco había recibido pagos en moneda extranjera, pero antes de que pudiera hacer los pagos correspondientes en marcos alemanes. Debido a la diferencia horaria en el comercio internacional de divisas, los bancos con los que Herstatt estaba operando no recibieron sus pagos, lo que resultó en pérdidas significativas.
+
+### Comité de Basilea
+
+Sede: Basliea, Suiza
+
+:   El Comité de Basilea fue establecido en 1974 por el G-10, Suiza y Luxemburgo.
+
+:   Su propósito era restaurar la confianza y estabilidad del sistema financiero internacional. Emite recomendaciones y declaraciones. Los bancos centrales las apoyan, pero no necesariamente las verifican.
+
+:   El Banco de Pagos Internacionales (BIS), conocido como el banco de los bancos centrales, tiene un comité de supervisión bancaria que emite recomendaciones a la comunidad financiera para fortalecer el sector financiero global.
+
+Actualmente hay **28 países** miembros del Comité de Basilea.
+
+**Tres Acuerdos de Basilea:**
+
+-   Julio de 1988
+
+-   Junio de 2004
+
+-   Diciembre (2010–2017)
+
+**¿Basilea IV?**
+
+No ha sido establecido formalmente como tal, aunque muchos lo llaman así. En realidad, se trata de la **finalización y cumplimiento de las disposiciones de Basilea III**, especialmente en lo relativo al cálculo de los activos ponderados por riesgo. Es la fase final de las reformas de Basilea III, cuyo calendario de implementación se extiende hasta **2028**.
+
+### Basilea I
+
+**Dos puntos fundamentales:**
+
+-   Medición común del capital regulatorio para mitigar el riesgo de crédito
+
+-   Índice mínimo de solvencia
+
+Fortalecer el sistema bancario y eliminar desigualdades competitivas entre bancos
+
+Se estableció un requisito mínimo de capital que una entidad bancaria debía tener con base en los riesgos que enfrentaba
+
+Capital del 8% de los activos (por cada dólar de crédito debe haber 8 centavos en el capital)
+
+Es una relación capital-riesgo, donde el capital se clasifica en dos niveles: Nivel 1 (fuente segura de financiamiento) y Nivel 2 (fuentes menos seguras de financiamiento)
+
+Considera un solo tipo de riesgo: “Crédito”
+
+Respecto al riesgo de crédito, se ponderan 5 categorías: 0, 10, 20, 50 y 100. El riesgo total es la suma de la ponderación de riesgo por el valor en libros de cada activo. Se debe cumplir que el índice mínimo de solvencia debe ser:
+
+$$
+Capital\;Total\;Regulador=Nivel\;1+Nivel\;2=\sum_{i=1}^Nw_iA_i=8%
+$$
+
+$$
+{Capital\;Regulador}/{Activos\;Ponderados\;por\:Riesgo} = 8%
+$$
+
+Basilea I es un estándar simple, basado en un solo coeficiente. Desafortunadamente, resultó insuficiente debido a la proliferación de instrumentos cada vez más sofisticados.
+
+De 1980 a 1996, 133 de los 181 miembros del FMI experimentaron problemas financieros.
+
+Nivel 1: Es el componente más seguro y de mayor calidad (reservas de capital, acciones, reservas patrimoniales) Nivel 2: Capital para absorber pérdidas solo en caso de liquidación del banco (bonos de largo plazo)
+
+### Basilea II
+
+Incorpora el riesgo de mercado y el riesgo operacional a las mediciones de riesgo. Considera tres pilares fundamentales:
+
+**Pilar I:** Requisitos mínimos de capital, para enfrentar riesgos de mercado, crédito y operación **Pilar II:** Supervisión, directrices para autoridades supervisoras para promover mejores prácticas en gestión de riesgos **Pilar III:** Disciplina de mercado, considera requisitos de divulgación para evaluar información básica de capital, exposición y evaluación de riesgos
+
+Índice de capitalización, mayor al 8%.
+
+$$
+Capital\;Total/(Riesgo\;de\:Crédito+Riesgo\;de\;Mercado+Riesgo\;Operacional)
+$$
+
+**Medición del riesgo de crédito:**
+
+-   Método estándar, basado en ponderaciones de riesgo de crédito
+
+-   Método interno (basado en calificaciones internas del banco)
+
+    -   Básico (IRB)
+
+    -   Avanzado (AIRB)
+
+**Medición del riesgo de mercado:**
+
+-   Método estándar
+
+-   Modelos internos basados en VaR (Valor en Riesgo)
+
+**Medición del riesgo operacional:**
+
+-   Método de indicador básico
+
+-   Método estandarizado
+
+-   Modelos internos avanzados
+
+### Basilea III
+
+**Basilea III: respuesta a la crisis financiera de 2007–2009**
+
+Publicado en diciembre de 2010
+
+Surge como medida ante la crisis de 2007–2009 y constituye un correctivo a lo que no se consideraba importante antes de esas fechas, especialmente en las áreas de calidad y suficiencia del capital, riesgo de liquidez y apalancamiento.
+
+Se consideran nuevamente los riesgos de crédito, mercado y operación.
+
+El índice mínimo de capitalización que deben tener los bancos es del 10.5% (Cojín de conservación de capital: Se agregó un 2.5% adicional de capital para absorber pérdidas en crisis)
+
+A los bancos sistémicos se les pide un porcentaje extra.
+
+La autoridad regulatoria de cada país determinará un porcentaje suplementario de capital contracíclico que se define de acuerdo con su situación económica.
+
+Un índice de apalancamiento toma el capital disponible y lo divide entre los activos totales. Se esperaba que los bancos mantuvieran un índice de apalancamiento superior al 3%
+
+(Por cada 100 dólares de activos, el banco debe mantener al menos 3 dólares en capital nivel 1, para evitar el endeudamiento excesivo).
+
+La crisis mostró la importancia no solo de niveles adecuados de capital, sino también de tener liquidez. Por ello, se establecieron dos indicadores con este fin:
+
+-   **CCL (LCR):** coeficiente de cobertura de liquidez, diseñado para promover la resiliencia ante posibles interrupciones de liquidez durante un período de 30 días
+
+-   **CFEN (NSFR):** coeficiente de financiamiento estable neto, que requiere que los bancos mantengan un mínimo de fuentes de financiamiento estables de acuerdo con los perfiles de liquidez de sus activos
+
+Ambos deben ser mayores al 100%.
