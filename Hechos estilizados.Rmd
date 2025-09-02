@@ -1,0 +1,91 @@
+---
+title: "Hechos estilizados"
+author: "Sofia HInojosa"
+date: "2025-09-02"
+output: html_document
+---
+
+## Hechos estilizados
+
+Hechos estilizados del rendimiento y el precio de un activo.
+
+### Hecho 1
+
+$$S_{t+1} = S_t + \epsilon_t$$
+
+#### Caminata aleatoria
+
+```{r}
+n <- 5000
+so <- 25
+epsilon <- rnorm(n, 0, 1)
+st <- so + cumsum(epsilon)
+plot(st, 
+     type = "l", 
+     col = "palevioletred", 
+     lwd = 2, 
+     xlab = "Tiempo", 
+     ylab = "Precio", 
+     main = "Caminata aleatoria")
+grid()
+
+```
+
+Vamos a comparar este comportamiento con uno de un activo de verdad.
+
+```{r}
+library(quantmod)
+getSymbols("GFNORTEO.MX")
+plot(GFNORTEO.MX$GFNORTEO.MX.Adjusted, col = "palevioletred", main = "Precio de cierre ajustado GFNORTEO.MX")
+
+```
+
+### Hecho 2
+
+La distribución de los rendimientos tiene una forma aproximadamente de 'campana'.\
+
+Una característica de los rendimientos de los precios de los activos es que, cuando obtenemos un histograma de su distribución, observamos un comportamiento en forma de campana con ciertas deformaciones.
+
+$$
+R = \frac{S_{t+1}-S_t}{S_t}
+$$
+
+$$
+R = ln(S_{t+1}) - ln(S_t)
+$$
+
+```{r}
+precio <- GFNORTEO.MX$GFNORTEO.MX.Adjusted
+rendimiento = diff(log(precio))
+hist(rendimiento, 
+     col = "palevioletred", 
+     main = "Histograma del rendimiento", 
+     n = 100,
+     xlab = "Clases de rendimiento",
+     ylab = "Frecuencias")
+grid()
+
+```
+
+Sí tiene forma de campana. Esto prueba el hecho estilizado 2 y 4.
+
+```{r}
+plot(rendimiento, col = "palevioletred", grid())
+
+```
+
+```{r}
+hist(precio, col = "palevioletred")
+grid()
+```
+
+Los rendimientos so normales, los precios no.
+
+### Hecho estilizado 3
+
+Poner aquí lo que dice el hecho.
+
+```{r}
+chartSeries(to.monthly(precio), theme = "white", name = "GFNORTEO")
+addBBands()
+```

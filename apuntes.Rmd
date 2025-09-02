@@ -19,6 +19,7 @@ Con conotación negativa, es la probabilidad de que ocurra un evento adverso. Pe
 
 **Medida de riesgo** $\rightarrow$ probabilidad de pérdidas.
 
+<<<<<<< HEAD
 +--------------+-----------------+-----------------+--------------+
 | Proyecto     | Capital inicial | Retorno interno | Probabilidad |
 +==============+=================+=================+==============+
@@ -32,6 +33,21 @@ Con conotación negativa, es la probabilidad de que ocurra un evento adverso. Pe
 |              |                 |                 |              |
 |              |                 | 41%             | 50%          |
 +--------------+-----------------+-----------------+--------------+
+=======
++----------+-----------------+-----------------+--------------+
+| Proyecto | Capital inicial | Retorno interno | Probabilidad |
++==========+=================+=================+==============+
+| A        | 100             | 16%             | 100%         |
++----------+-----------------+-----------------+--------------+
+| B        | 100             | 11%             | 50%          |
+|          |                 |                 |              |
+|          |                 | 21%             | 50%          |
++----------+-----------------+-----------------+--------------+
+| C        | 100             | -9%             | 50%          |
+|          |                 |                 |              |
+|          |                 | 41%             | 50%          |
++----------+-----------------+-----------------+--------------+
+>>>>>>> ad1cc98 (agregando)
 
 ------------------------------------------------------------------------
 
@@ -188,6 +204,7 @@ $$
 
 Basilea I es un estándar simple, basado en un solo coeficiente. Desafortunadamente, resultó insuficiente debido a la proliferación de instrumentos cada vez más sofisticados.
 
+<<<<<<< HEAD
 De 1980 a 1996, 133 de los 181 miembros del FMI experimentaron problemas financieros.
 
 Nivel 1: Es el componente más seguro y de mayor calidad (reservas de capital, acciones, reservas patrimoniales) Nivel 2: Capital para absorber pérdidas solo en caso de liquidación del banco (bonos de largo plazo)
@@ -215,19 +232,55 @@ $$
     -   Avanzado (AIRB)
 
 **Medición del riesgo de mercado:**
+=======
+### Basilea II
+
+**Incorpora el riesgo de mercado y el riesgo operativo en las mediciones de riesgo.** Considera tres pilares fundamentales:
+
+-   **Pilar I:** Requisitos mínimos de capital, para enfrentar riesgos de mercado, crédito y operacionales.
+
+-   **Pilar II:** Supervisión, directrices para las autoridades supervisoras que promueven buenas prácticas en la gestión de riesgos.
+
+-   **Pilar III:** Disciplina de mercado, considera requisitos de divulgación para evaluar información básica de capital, exposición y evaluación de riesgos.
+
+-   **Índice de capitalización:** superior al 8%.
+
+$$
+Capital\;Total/(Riesgo\;de\;Crédito+Riesgo\;de\;Mercado+Riesgo\;Operacional)
+$$
+
+**Medición del riesgo de crédito**
+
+-   Método estándar, basado en ponderaciones de riesgo crediticio
+
+-   Método interno (basado en calificaciones internas del banco)
+
+-   Básico (IRB)
+
+-   Avanzado (AIRB)
+
+**Medición del riesgo de mercado**
+>>>>>>> ad1cc98 (agregando)
 
 -   Método estándar
 
 -   Modelos internos basados en VaR (Valor en Riesgo)
 
+<<<<<<< HEAD
 **Medición del riesgo operacional:**
 
 -   Método de indicador básico
+=======
+**Medición del riesgo operacional**
+
+-   Método del indicador básico
+>>>>>>> ad1cc98 (agregando)
 
 -   Método estandarizado
 
 -   Modelos internos avanzados
 
+<<<<<<< HEAD
 ### Basilea III
 
 **Basilea III: respuesta a la crisis financiera de 2007–2009**
@@ -255,3 +308,58 @@ La crisis mostró la importancia no solo de niveles adecuados de capital, sino t
 -   **CFEN (NSFR):** coeficiente de financiamiento estable neto, que requiere que los bancos mantengan un mínimo de fuentes de financiamiento estables de acuerdo con los perfiles de liquidez de sus activos
 
 Ambos deben ser mayores al 100%.
+=======
+-   **Método estándar:** prescribe el uso de calificaciones crediticias externas para determinar la ponderación de riesgo de ciertas exposiciones.
+
+-   **Métodos internos:** basados en calificaciones internas del banco.
+
+-   **Probabilidad de incumplimiento (PD):** es una medida de calificación crediticia asignada internamente con el objetivo de estimar la probabilidad de incumplimiento (5 años).
+
+-   **Severidad, pérdida dado el incumplimiento (LGD):** se define como el porcentaje de la exposición en riesgo que no se espera recuperar en caso de incumplimiento (7 años).
+
+-   **Exposición en el momento del incumplimiento (EAD):** se define como el monto de la deuda pendiente en el momento del incumplimiento del cliente.
+
+-   **Plazo del crédito (M)**
+
+#### El método estándar:
+
+1.  Riesgos soberanos, por ejemplo, deuda pública
+
+2.  Deuda de empresas públicas que no pertenecen a la administración central
+
+3.  Préstamos multilaterales a bancos de desarrollo
+
+4.  Créditos interbancarios
+
+5.  Préstamos a corredores de bolsa
+
+6.  Préstamos a empresas
+
+7.  Préstamos incluidos en la cartera minorista para fines regulatorios
+
+8.  Préstamos garantizados por bienes raíces residenciales
+
+9.  Préstamos garantizados por bienes raíces comerciales
+
+10. Préstamos morosos
+
+11. Categorías de mayor riesgo
+
+12. Otros activos
+
+13. Partidas fuera de balance
+
+El número de bandas de riesgo aumenta considerablemente al dividir los 13 grupos en bandas secundarias basadas en calificaciones de Moody’s, S&P u otras agencias.
+
+Por ejemplo, en el primer grupo (riesgos soberanos), se establecen cinco bandas:
+
+-   0% para calificaciones de AAA a AA-
+
+-   20% para A+ a A-
+
+-   50% para BBB+ a BBB-
+
+-   100% para BB+ a B-
+
+-   150% para créditos por debajo de B- o sin calificación
+>>>>>>> ad1cc98 (agregando)

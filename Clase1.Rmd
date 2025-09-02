@@ -1,0 +1,13 @@
+---
+title: "Clase 1"
+author: "Sofia Hinojosa"
+date: "2025-08-19"
+output: html_document
+---
+
+## Análisis de riesgo
+
+De cálculo estocástico:
+
+$\epsilon \rightarrow variable\, aleatoria \sim N(0,1)$
+
