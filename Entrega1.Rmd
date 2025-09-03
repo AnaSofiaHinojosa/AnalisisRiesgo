@@ -1,0 +1,38 @@
+---
+title: "Entrega1Proyecto"
+author: "Sofia Hinojosa, Julieta Madrigal, Sharon Manzano, Jose Armando Melchor, Isabela Torres-Septien"
+date: "2025-09-03"
+output: html_document
+---
+
+# Proyecto final Parte 1: Descripción del activo e identificación de tipos de riesgo
+
+## Introducción y descripción
+
+## Cálculo del EPS
+
+## Dividendos y splits
+
+## Identificación de riesgos
+
+### **Riesgo de mercado**
+
+El riesgo del mercado se caracteriza por pérdidas relacionadas con cambios en el tipo de cambio, divisas, fluctuaciones en los precios del mercado, entre otros. En 2020, la pandemia generó una alta volatilidad en los mercados financieros y por ende, una fuerte recesión económica global. Sin embargo, el S & P Global Rating reconoció al Banco Inbursa como bien posicionado para enfrentar tanto la volatilidad del mercado como la recesión; esto se vio reflejado al mantener vigente su calificación crediticia “BBB” a escala global y  “mxAAA” en escala nacional a largo plazo, su estructura conservadora permitió resistir la crisis sin sufrir colapsos en su capital o provisiones. 
+
+### **Riesgo de crédito**
+
+Es el riesgo de que la contraparte no pague el préstamo o no cumpla con sus obligaciones contractuales, de tal manera que podría deteriorar la cartera de la empresa, provocar pérdidas y reducir su rentabilidad. Durante la pandemia, Inbursa reforzó sus provisiones preventivas adicionales a 1,421 millones de pesos en la cartera de consumo y se mantuvieron hasta el 2021. Sin embargo, fue hasta 2022 que la estimación preventiva para riesgos crediticios aumentó de 1,271 millones a 2,529 millones de pesos y a su vez, incrementó la cobertura al aumentar la cartera 1.9 veces en etapa 3 y la cartera total un 3%. Finalmente, en el primer semestre del 2025 el costo de riesgo llegó a los 3,293 millones de pesos y la reserva total a 11,085 millones de pesos, 1.5 veces la cartera en etapa 3 y 2.2% del total de créditos, reflejando una sólida gestión del riesgo crediticio.
+
+### **Riesgo de liquidez**
+
+Es el riesgo de no tener efectivo o fondo que sea capaz de solventar un imprevisto. El Coeficiente de Cobertura Liquidez CCL promedio del 2021 fue de 913.41% y en 2022 fue de 967.68%; en ambos períodos hubo un incremento en las entradas de efectivo y en activos líquidos, demostrando que tiene una amplia capacidad de gestión de liquidez. Además, se realizan pruebas de estrés para simular caídas de mercado y calibrar límites de tolerancia de riesgo, lo cual les permite desarrollar planes de recuperación cuando sea necesario. Existe el Plan de Contingencia PC, el cual detalla el plan de acción y quien lo debe de llevar a cabo para restaurar los niveles de liquidez y solvencia ante un evento adverso. Finalmente, en 2024 HR Ratings calificó al Banco Inbursa con un CCL de 798.8% en escenario base y una capitalización de 22.1%; asimismo, Fitch Ratings destacó que Seguros Inbursa tiene un índice de activos líquidos sobre reservas de 188%, reiterando los niveles sólidos de liquidez y la fuerte estrategia de captación de financiamiento estable. 
+
+### **Riesgo operativo**
+
+Es el riesgo por fallas de sistemas, fraudes, robos internos, falta de capacitación y eventos extraordinarios que afectan la reputación o incluso la continuidad de la empresa. Inbursa desarrolló una herramienta interna denominada “Riesgo Operacional”, la cual les permite identificar documentos, clasificarlos por tipo / factor y registrar las pérdidas de cualquier riesgo que se presente. Además, existe un Comité de Riesgos que se encarga de aprobar modelos, parámetros y escenarios sobre la exposición de riesgo y posibles consecuencias. Finalmente, en 2024 HR Ratings categorizó a Banco Inbursa como calificados para identificar riesgos relacionados con procesos operativos. 
+
+### **Riesgo regulatorio y estratégico**
+
+Es el riesgo de pérdidas por cambios en la regulación, políticas monetarias, supervisión bancaria, decisiones de adquisiciones o nuevas líneas de negocio que no resultaron bien y afectan de manera negativa la posición competitiva de la empresa y percepción pública. A principios del 2024, Inbursa adquirió el 80% de Cetelem México por 8,982 millones de pesos para consolidar su presencia en el financiamiento automotriz y de nómina; a finales del 2024, Cetelem contaba con una cartera de préstamos de 64,637 millones de pesos, a una baja morosidad y una gran cobertura de reservas. El aumento acelerado de préstamos y el crecimiento de transacciones digitales reforzaron su posición de eficiencia, escalabilidad y solidez en la banca digital. Sin embargo, Sustainalytics calificó al Grupo Inbursa con un 31.5, lo cual indica un alto riesgo ESG ( marco que se utiliza para evaluar a la empresa considerando su impacto en la sociedad, medio ambiente y prácticas de gestión interna), ubicándolo en una posición baja en el ranking global del sector bancario; por lo que deben de mitigar los riesgos ambientales, sociales y de gobernanza para mejorar su perfil, atraer inversores ESG y competitividad a largo plazo. 
+
+## Conclusiones
